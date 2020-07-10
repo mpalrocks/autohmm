@@ -562,7 +562,7 @@ class ARTHMM(THMM):
 
 
         samples = np.zeros((n_samples, self.n_features))
-        states = np.zeros(n_samples)
+        states = np.zeros(n_samples, dtype=int)
 
         order = self.n_lags
 
